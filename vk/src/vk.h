@@ -1,10 +1,12 @@
 #pragma once
 
  /*
-  * HELLO VIEWER
-  * HELLO READER
+  * HELLO
   *
-  * This performance, installation, and softwarae is called Void Kill (). 
+  * This performance, installation, and software work is called Void Kill (). 
+  * It's an work of drone fiction; imagining the moment when a software developer
+  * sits down and writes software that decides on its own whether or not to take a human life.
+  * 
   * It was created by Jamie Zigelbaum for the Spring Break Art Show in New York.
   * http://jamiezigelbaum.com
   *
@@ -31,7 +33,6 @@ class vk : public ofBaseApp{
 
   public:
     void setup();
-    void update();
 	
     // this is where all comms with command happens for things like launch approval
     void receiveInstructions() {};

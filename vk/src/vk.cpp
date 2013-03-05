@@ -19,6 +19,7 @@ void vk::setup(){
 void vk::takeoff(){
     // now I'm in the air at some millitary base, better get out of their airspace first thing
     exitAirspace();
+    receiveInstructions();
     
     // command has authorized this mission and I can travel into enemy air space
     // now I'm totally on my own
@@ -61,5 +62,5 @@ void vk::aquireTarget(){
 
 //--------------------------------------------------------------
 void vk::kill(){
-    // this is where the drone kills someone
+    // this is where I kill someone
 }
