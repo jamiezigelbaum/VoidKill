@@ -19,7 +19,7 @@
   *
   * Github repo https://github.com/jamiezigelbaum/VoidKill
   * 
-  * Everything here is speculation.
+  * Everything here is speculation and psuedocode.
   *
   */
 
@@ -33,12 +33,17 @@ class vk : public ofBaseApp{
     void setup();
     void update();
 	
+    // this is where all comms with command happens for things like launch approval
+    void receiveInstructions() {};
+    
 	// flight operation and navigation stuff
-    void preflightCheck();
+    void preflightCheck() {};
+    void checkWeapons() {};
+    void waitForClearance() {};
     void takeoff();
-    void exitAirspace();
-    void setDestination();
-    void flyToDestination();
+    void exitAirspace() {};
+    void setDestination() {};
+    void flyToDestination() {};
     
     // target aquisition and analysis
     void aquireTarget();
@@ -56,4 +61,6 @@ class vk : public ofBaseApp{
     void land();
     
     
+    // variables
+    bool authorized_to_launch, approved_for_mission;
 };
