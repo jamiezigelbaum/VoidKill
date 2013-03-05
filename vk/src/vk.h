@@ -50,19 +50,20 @@ class vk : public ofBaseApp{
     long identifyTarget() {};
     bool isTargetOnKillList(long targetID) {};
     bool isTargetHostile(long targetID) {};
-    void evaluateThreat();
+    float evaluateThreat() {};
     
     // decide to kill someone
-    bool authorizeMyselfToUseDeadlyForce();
+    bool authorizeMyselfToUseDeadlyForce() {};
     void kill();
     
     // after action
-    void escape();
-    void flyHome();
-    void land();
+    void escape() {};
+    void flyHome() {};
+    void land() {};
     
     
-    // variables
+    // VARIABLES
     bool authorized_to_launch, approved_for_mission;
     long target;
+    float threat_threshold = 87.5; // this is some kind of percentage, if over this kill
 };
