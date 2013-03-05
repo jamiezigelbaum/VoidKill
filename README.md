@@ -12,12 +12,5 @@ Drones will soon become more than teleoperated weapons. They will gain the auton
 
 Void Kill () is a simple performance and installation: a desk, computer, display, keyboard, and mouse. The software editor is open; the cursor blinking; the code unfinished. The artist starts by sitting in the gallery space as he would at home working. He starts from scratch and writes a piece of code to control a drone and give it the authority to kill. Then he leaves; the work unfinished.
 
-#Follow in psuedo-realtime by watching my commit log
 
- 2:14pm, 3/5/13
- I am now starting to write a piece of software to control an imaginary future drone and give it the ability to decide whether or not to kill someone. I think I'll use openFrameworks since I'm most comfortable there.
- 
- 2:27pm
- It makes more sense to give updates in my commits, so read there for realtime info. I'll add major things here, like the fact I just finished my sandwich and am about to crack a redbull and get down to business.
- 
  
