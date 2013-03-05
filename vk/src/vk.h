@@ -47,9 +47,13 @@ class vk : public ofBaseApp{
     void isTargetHostile();
     void evaluateThreat();
     
-    //
+    // the drone has decided to kill someone
     void kill();
     
+    // after action
+    void escape();
+    void flyHome();
+    void land();
     
     
 };
