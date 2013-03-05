@@ -47,12 +47,13 @@ class vk : public ofBaseApp{
     
     // target aquisition and analysis
     void aquireTarget();
-    long identifyTarget();
-    void isTargetOnKillList();
-    void isTargetHostile(long targetID);
+    long identifyTarget() {};
+    bool isTargetOnKillList(long targetID) {};
+    bool isTargetHostile(long targetID) {};
     void evaluateThreat();
     
-    // the drone has decided to kill someone
+    // decide to kill someone
+    bool authorizeMyselfToUseDeadlyForce();
     void kill();
     
     // after action
