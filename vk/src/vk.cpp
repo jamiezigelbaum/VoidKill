@@ -16,10 +16,6 @@ void vk::setup(){
     }
 }
 
-void vk::update(){
-
-}
-
 void vk::takeoff(){
     // now I'm in the air at some millitary base, better get out of their airspace first thing
     exitAirspace();
@@ -36,10 +32,15 @@ void vk::takeoff(){
 
 //--------------------------------------------------------------
 void vk::aquireTarget(){
+    // this mission is unspecific, I am just supposed to go into the enemy space and patrol
+    // if I see something fishy I should investigate it
+    target = identifyTarget();
     
 }
 
-void vk::identifyTarget(){
+long vk::identifyTarget(){
+    long trgt;
+    return trgt;
     
 }
 
